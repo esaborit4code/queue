@@ -1,5 +1,5 @@
-var map = require('map'),
-    Emitter = require('emitter'),
+var map = require('map-component'),
+    Emitter = require('component-emitter'),
     ms = require('ms'),
     store = require('store'),
     Task = require('./task');
