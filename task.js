@@ -32,7 +32,7 @@ Task.prototype.process = function(job) {
 
   if (this._online && !navigator.onLine) {
     job.emit('offline');
-    replay(job);
+    _this.replay(job);
     return;
   }
 
