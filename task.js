@@ -15,7 +15,7 @@ module.exports = Task;
 
 function Task(name) {
   this.name = name;
-  this_interval = ms('2s');
+  this._interval = ms('2s');
   this._retry = 0;
 }
 
